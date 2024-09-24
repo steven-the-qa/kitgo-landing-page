@@ -1,0 +1,48 @@
+# Astro build output
+dist/
+.output/
+
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.production
+
+# macOS-specific files
+.DS_Store
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Astro specific
+.astro/
+
+# Temporary files
+*.log
+*.cache
+.cache/
+
+# Build files
+build/
+
+# Tailwind CSS output
+dist/output.css
+
+# TypeScript
+*.tsbuildinfo
+
+# Netlify
+.netlify/
