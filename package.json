@@ -5,13 +5,15 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro check && astro build",
+    "build": "npm run tw && astro check && astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "tw": "tailwindcss -i ./src/input.css -o ./dist/output.css"
+    "tw": "tailwindcss -i ./src/styles/global.css -o ./dist/output.css"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.3",
+    "@astrojs/netlify": "^5.5.3",
+    "@astrojs/tailwind": "^5.1.1",
     "@iconify-json/mdi": "^1.2.0",
     "astro": "^4.15.9",
     "astro-icon": "^1.1.1",
