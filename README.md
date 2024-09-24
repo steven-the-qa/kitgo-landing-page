@@ -25,7 +25,7 @@ Visit our website to sign up and start simplifying your ConvertKit email writing
 
 ## Contact
 
-For more information, visit [kitgo.com](https://kitgo.app) or contact us at steven@themodernqa.com.
+For more information, contact me at steven@themodernqa.com.
 
 ---
 
